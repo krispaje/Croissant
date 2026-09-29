@@ -8,3 +8,23 @@ h1 {
 p {
   text-align: center;
 }
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  color: green;
+}
+a:visited {
+  color: green;
+}
+.photo {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  display: block;
+  margin: 0 auto;
+  border-radius: 1%;
+  padding-bottom: 20px;
+}
